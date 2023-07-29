@@ -1,0 +1,17 @@
+{
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.semanticHighlighting.enabled":true,
+    "editor.renderWhitespace": "all",
+
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+    "workbench.sideBar.location": "right",
+
+    "files.autoSave": "afterDelay",
+
+    "terminal.integrated.fontSize": 14,
+
+    "rubyLsp.rubyVersionManager": "rbenv",
+    "kotlin.languageServer.path": "/Users/okamo/code/kotlin/kotlin-language-server/server/build/install/server/bin/kotlin-language-server",
+    "kotlin.debugAdapter.path": "/Users/okamo/code/kotlin/kotlin-debug-adapter/adapter/build/install/adapter/bin/kotlin-debug-adapter"
+}
