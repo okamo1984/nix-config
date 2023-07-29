@@ -37,6 +37,10 @@
     # JVM
     pkgs.gradle
     pkgs.maven
+
+    # IaC
+    pkgs.terraform
+    pkgs.terraform-ls
     
     pkgs.tailscale
   ];
@@ -130,6 +134,7 @@
       github.vscode-github-actions
       golang.go
       rust-lang.rust-analyzer
+      hashicorp.terraform
 
       # Maintained by Individual
       mhutchie.git-graph
