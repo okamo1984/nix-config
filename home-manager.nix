@@ -41,6 +41,9 @@
     # IaC
     pkgs.terraform
     pkgs.terraform-ls
+
+    # GCP
+    pkgs.google-cloud-sdk
     
     pkgs.tailscale
   ];
