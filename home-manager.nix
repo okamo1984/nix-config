@@ -44,6 +44,11 @@
 
     # GCP
     pkgs.google-cloud-sdk
+
+    # Container
+    pkgs.colima
+    pkgs.docker
+    pkgs.cosign
     
     pkgs.tailscale
   ];
@@ -138,6 +143,7 @@
       golang.go
       rust-lang.rust-analyzer
       hashicorp.terraform
+      ms-azuretools.vscode-docker
 
       # Maintained by Individual
       mhutchie.git-graph
