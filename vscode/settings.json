@@ -3,6 +3,7 @@
     "editor.fontSize": 14,
     "editor.semanticHighlighting.enabled":true,
     "editor.renderWhitespace": "all",
+    "editor.inlineSuggest.enabled": true,
 
     "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
     "workbench.sideBar.location": "right",

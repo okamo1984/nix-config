@@ -138,6 +138,7 @@
       github.github-vscode-theme
       github.vscode-pull-request-github
       github.vscode-github-actions
+      github.copilot
       golang.go
       rust-lang.rust-analyzer
       hashicorp.terraform
