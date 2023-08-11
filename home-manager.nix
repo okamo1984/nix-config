@@ -49,8 +49,6 @@
     pkgs.colima
     pkgs.docker
     pkgs.cosign
-    
-    pkgs.tailscale
   ];
 
   programs.direnv = {

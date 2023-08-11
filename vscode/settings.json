@@ -15,5 +15,8 @@
     "kotlin.languageServer.path": "/Users/okamo/code/kotlin/kotlin-language-server/server/build/install/server/bin/kotlin-language-server",
     "kotlin.debugAdapter.path": "/Users/okamo/code/kotlin/kotlin-debug-adapter/adapter/build/install/adapter/bin/kotlin-debug-adapter",
 
-    "terminal.integrated.defaultProfile.osx": "fish"
+    "terminal.integrated.defaultProfile.osx": "fish",
+
+    "update.mode": "none",
+    "extensions.autoUpdate": false
 }
