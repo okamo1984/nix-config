@@ -49,6 +49,9 @@
     pkgs.colima
     pkgs.docker
     pkgs.cosign
+
+    # VPN
+    pkgs.tailscale
   ];
 
   programs.direnv = {
