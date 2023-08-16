@@ -149,7 +149,6 @@
 
       # Maintained by Individual
       mhutchie.git-graph
-
     ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
       {
         name = "ruby-lsp";

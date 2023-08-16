@@ -18,6 +18,11 @@
 
     "terminal.integrated.defaultProfile.osx": "fish",
 
+    "yaml.schemas": {
+        "file:///Users/okamo/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
+    },
+    "redhat.telemetry.enabled": false,
+
     "update.mode": "none",
     "extensions.autoUpdate": false
 }
