@@ -1,5 +1,8 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, nixpkgs-unstable, ... }:
 
+let
+  pkgsUnstable = import nixpkgs-unstable {};
+in
 {
   home.stateVersion = "23.05";
 
@@ -135,6 +138,7 @@
 
   programs.vscode = {
     enable = true;
+    package = pkgsUnstable.vscode;
 
     extensions = with pkgs.vscode-extensions; [
       # Maintained by Organization
@@ -146,6 +150,7 @@
       rust-lang.rust-analyzer
       hashicorp.terraform
       ms-azuretools.vscode-docker
+      redhat.vscode-yaml
 
       # Maintained by Individual
       mhutchie.git-graph

@@ -7,6 +7,8 @@
     # it'll impact your entire system.
     nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
 
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+
     home-manager = {
       url = "github:nix-community/home-manager/release-23.05";
 
@@ -29,7 +31,7 @@
     };
   };
 
-  outputs = { self, darwin, home-manager, nixpkgs, zig, fenix }: let 
+  outputs = { self, darwin, home-manager, nixpkgs, zig, fenix, nixpkgs-unstable }: let 
     overlays = [
         zig.overlays.default
         fenix.overlays.default
@@ -45,6 +47,9 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.users.okamo = import ./home-manager.nix;
+          home-manager.extraSpecialArgs = {
+            inherit nixpkgs-unstable;
+          };
         }
       ];
     };
